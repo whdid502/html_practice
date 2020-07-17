@@ -1,0 +1,22 @@
+#login_area{
+    position: relative;
+    margin: 0 auto;
+
+}
+.insert_area{
+    background-color: aqua;
+}
+#insert_pw{
+    color: blueviolet;
+}
+#insert_id{
+    color: darkcyan;
+}
+#id_area{
+    position: static;
+}
+#text_area{
+    background-color: darkgreen;
+    position: relative;
+    top : 50px;
+}

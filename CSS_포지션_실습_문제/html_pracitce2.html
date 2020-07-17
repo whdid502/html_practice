@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css_dir/login.css">
+</head>
+<body>
+    <div id='login_area'>
+        <form action="google.com" method="POST">
+            <label for="user_id">아이디</label>
+            <input id='insert_id', class = 'insert_area', type="text", name="user_id", placeholder="아이디를 입력해 주세요">
+            <br>
+            <label for="user_pw">비밀번호    </label>
+            <input id='insert_pw', class = 'insert_area',type="password", name="user_pw", placeholder="비밀번호를 입력해 주세요">
+            <br>
+            <label for="pw_que">비밀번호질문    </label>
+            <select name="pw_que" id="">
+                <option value="답안1">답안1</option>
+                <option value="답안2">답안2</option>
+                <option value="답안3">답안3</option>
+            </select>
+            <br>
+ 
+            <div id="text_area">
+                <label for="self_introudce">자기소개</label>
+                <textarea id = 'introduce_area',name="self_introudce" id="" cols="30" rows="10"></textarea>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

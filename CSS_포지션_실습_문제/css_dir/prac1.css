@@ -1,0 +1,17 @@
+#back_box{
+    position: static;
+    border-radius: 5px;
+    border-color: orange;
+    border-style: dotted;
+    width: 200px;
+    height: 200px;
+}
+#goal_box{
+    position: relative;
+    top: 70px;
+    left: 70px;
+    background-color: orange;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
