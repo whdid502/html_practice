@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./login.css">
 </head>
 <body>
     <form action="google.com" method="POST">
         <label for="user_id">아이디</label>
-        <input type="text", name="user_id", placeholder="아이디를 입력해 주세요">
+        <input id='insert_id', class = 'insert_area', type="text", name="user_id", placeholder="아이디를 입력해 주세요">
         <br>
         <label for="user_pw">비밀번호    </label>
-        <input type="password", name="user_pw", placeholder="비밀번호를 입력해 주세요">
+        <input id='insert_pw', class = 'insert_area',type="password", name="user_pw", placeholder="비밀번호를 입력해 주세요">
         <br>
         <label for="pw_que">비밀번호질문    </label>
         <select name="pw_que" id="">
