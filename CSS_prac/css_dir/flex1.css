@@ -1,0 +1,18 @@
+#box_wrapper{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid orchid;
+    border-radius: 10px;
+
+}
+.inbox{
+    width: 150px;
+    height: 150px;
+    background-color: orchid;
+    border-radius: 5px;
+    margin: 10px;
+}
