@@ -1,15 +1,20 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
+class_3 = ['우태용', '조양권', '김진혁', '안홍선', '모혜림']
+
 # Create your views here.
-def helloworld(request):
-    #요청에 대한 처리
+def home(request):
+    name = '조양권'
+    return render(request, 'home.html', {'username':name})
 
-    #응답
-    return HttpResponse('Hellow, World!')
+def result(request):
+    print(request.POST['username'])
+    is_student_class_3 = False
 
-def login(request):
-    return HttpResponse('로그인 되었습니다.')
+    username = request.POST['username']
 
-def signout(request):
-    return HttpResponse('잘가~')
+    if username in class_3:
+        is_student_class_3 = True
+        
+    return render(request, 'result.html', {'username':username, 'is_student_class_3':is_student_class_3})
